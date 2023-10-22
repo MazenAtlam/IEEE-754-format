@@ -16,7 +16,7 @@ unsigned int binary_length(unsigned int n)
     while (n != 0)
     {
         length++;
-        n /= 2;
+        n /= 2; // log(n)
     }
 
     return (length);
